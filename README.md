@@ -1,4 +1,7 @@
 # May-Leetcoding-Challenge
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama) [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/) [![GitHub issues](https://img.shields.io/github/issues/S-ayanide/MixCentro)](https://github.com/S-ayanide/MixCentro/issues)
+[![GitHub forks](https://img.shields.io/github/forks/S-ayanide/MixCentro?style=social)](https://github.com/S-ayanide/MixCentro/network) [![GitHub stars](https://img.shields.io/github/stars/S-ayanide/MixCentro?style=social)](https://github.com/S-ayanide/MixCentro/stargazers) [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+
 I have started from May 8th in this Challenge. And this repository contains my solutions to the challenge. Only the exact solution.
 
 ### Questions: 
