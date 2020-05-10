@@ -17,4 +17,19 @@ Output: false`
 + coordinates[i].length == 2
 + -10^4 <= coordinates[i][0], coordinates[i][1] <= 10^4
 + coordinates contains no duplicate point.
+
+***
+
+#### Day-9 : 
+**Valid Perfect Square :** 
+>Given a positive integer num, write a function which returns True if num is a perfect square else False.
+
+>Note: Do not use any built-in library function such as `sqrt`.
+
+`Input: 16
+Output: true`
+
+`Input: 14
+Output: false`
+
 ***
