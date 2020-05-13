@@ -102,3 +102,18 @@ to the starting pixel.`
 + The given starting pixel will satisfy `0 <= sr < image.length and 0 <= sc < image[0].length`.
 + The value of each color in `image[i][j]` and `newColor` will be an integer in `[0, 65535]`.
 ***
+
+#### Day-12 : 
+**Check If It Is a Straight Line :** 
+>You are given a sorted array consisting of only integers where every element appears exactly twice, except for one element which appears exactly once. Find this single element that appears only once.
+
+`Input: [1,1,2,3,3,4,4,8,8]
+Output: 2`
+
+`Input: [3,3,7,7,10,11,11]
+Output: 10`
+
+**Constraints:**
++  Your solution should run in `O(log n) time` and `O(1) space`.
+
+***
