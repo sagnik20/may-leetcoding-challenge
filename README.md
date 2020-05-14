@@ -9,11 +9,11 @@ I have started from May 8th in this Challenge. And this repository contains my s
 **Check If It Is a Straight Line :** 
 >You are given an array coordinates, coordinates[i] = [x, y], where [x, y] represents the coordinate of a point. Check if these points make a straight line in the XY plane.
 
-`Input: coordinates = [[1,2],[2,3],[3,4],[4,5],[5,6],[6,7]]
-Output: true`
+`Input: coordinates = [[1,2],[2,3],[3,4],[4,5],[5,6],[6,7]]`
+`Output: true`
 
-`Input: coordinates = [[1,1],[2,2],[3,4],[4,5],[5,6],[7,7]]
-Output: false`
+`Input: coordinates = [[1,1],[2,2],[3,4],[4,5],[5,6],[7,7]]`
+`Output: false`
 
 **Constraints:**
 + `2 <= coordinates.length <= 1000`
@@ -29,11 +29,11 @@ Output: false`
 
 >Note: Do not use any built-in library function such as `sqrt`.
 
-`Input: 16
-Output: true`
+`Input: 16`
+`Output: true`
 
-`Input: 14
-Output: false`
+`Input: 14`
+`Output: false`
 
 ***
 
@@ -49,20 +49,20 @@ Output: false`
 
 >If the town judge exists and can be identified, return the label of the town judge.  Otherwise, return -1.
 
-`Input: N = 2, trust = [[1,2]]
-Output: 2`
+`Input: N = 2, trust = [[1,2]]`
+`Output: 2`
 
-`Input: N = 3, trust = [[1,3],[2,3]]
-Output: 3`
+`Input: N = 3, trust = [[1,3],[2,3]]`
+`Output: 3`
 
-`Input: N = 3, trust = [[1,3],[2,3],[3,1]]
-Output: -1`
+`Input: N = 3, trust = [[1,3],[2,3],[3,1]]`
+`Output: -1`
 
-`Input: N = 3, trust = [[1,2],[2,3]]
-Output: -1`
+`Input: N = 3, trust = [[1,2],[2,3]]`
+`Output: -1`
 
-`Input: N = 4, trust = [[1,3],[1,4],[2,3],[2,4],[4,3]]
-Output: 3`
+`Input: N = 4, trust = [[1,3],[1,4],[2,3],[2,4],[4,3]]`
+`Output: 3`
 
 **Constraints:**
 + `1 <= N <= 1000`
@@ -86,10 +86,8 @@ Output: 3`
 `Input: 
 image = [[1,1,1],[1,1,0],[1,0,1]]
 sr = 1, sc = 1, newColor = 2`
-
 `Output: 
 [[2,2,2],[2,2,0],[2,0,1]]`
-
 `Explanation: 
 From the center of the image (with position (sr, sc) = (1, 1)), all pixels connected 
 by a path of the same color as the starting pixel are colored with the new color.
@@ -107,13 +105,35 @@ to the starting pixel.`
 **Check If It Is a Straight Line :** 
 >You are given a sorted array consisting of only integers where every element appears exactly twice, except for one element which appears exactly once. Find this single element that appears only once.
 
-`Input: [1,1,2,3,3,4,4,8,8]
-Output: 2`
+`Input: [1,1,2,3,3,4,4,8,8]`
+`Output: 2`
 
-`Input: [3,3,7,7,10,11,11]
-Output: 10`
+`Input: [3,3,7,7,10,11,11]`
+`Output: 10`
 
 **Constraints:**
 +  Your solution should run in `O(log n) time` and `O(1) space`.
+
+***
+
+#### Day-13 : 
+**Remove K smallest :** 
+>Given a non-negative integer num represented as a string, remove k digits from the number so that the new number is the smallest possible.
+
+`Input: num = "1432219", k = 3`
+`Output: "1219"`
+`Explanation: Remove the three digits 4, 3, and 2 to form the new number 1219 which is the smallest.`
+
+`Input: num = "10200", k = 1`
+`Output: "200"`
+`Explanation: Remove the leading 1 and the number is 200. Note that the output must not contain leading zeroes.`
+
+`Input: num = "10", k = 2`
+`Output: "0"`
+`Explanation: Remove all the digits from the number and it is left with nothing which is 0.`
+
+**Constraints:**
++ The length of `num is less than 10002` and will be `≥ k`.
++ The given num does not contain any leading zero.
 
 ***
