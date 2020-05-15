@@ -2,7 +2,7 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/sagnik20/may-leetcoding-challenge/graphs/commit-activity) [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/sagnik20/ama) [![made-for-VSCode](https://img.shields.io/badge/Made%20for-LeetCode-1f425f.svg)](https://leetcode.com/) [![GitHub issues](https://img.shields.io/github/issues/sagnik20/may-leetcoding-challenge)](https://github.com/sagnik20/may-leetcoding-challenge/issues)
 [![GitHub forks](https://img.shields.io/github/forks/sagnik20/may-leetcoding-challenge?style=social)](https://github.com/sagnik20/may-leetcoding-challenge/network) [![GitHub stars](https://img.shields.io/github/stars/sagnik20/may-leetcoding-challenge?style=social)](https://github.com/sagnik20/may-leetcoding-challenge/stargazers) [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
-I have started from May 8th in this Challenge. And this repository contains my solutions to the challenge. Only the `exact solution`. if you want to improve the solutions, Please make a `Issue first`.
+I have started from May 8th in this Challenge. And this repository contains my solutions to the challenge. Only the `exact solution`. If you want to improve the solutions, Please make a `Issue first`.
 
 ### Questions: 
 #### Day-8 : 
@@ -135,5 +135,31 @@ to the starting pixel.`
 **Constraints:**
 + The length of `num is less than 10002` and will be `≥ k`.
 + The given num does not contain any leading zero.
+
+***
+
+#### Day-14 : 
+**Implement Trie (Prefix Tree) :** 
+>Implement a trie with `insert`, `search`, and `startsWith` methods.
+
+**Example**
+
+`Trie trie = new Trie();`
+
+`trie.insert("apple");`
+
+`trie.search("apple");   // returns true`
+
+`trie.search("app");     // returns false`
+
+`trie.startsWith("app"); // returns true`
+
+`trie.insert("app");   `
+
+`trie.search("app");     // returns true`
+
+**Constraints:**
++ You may assume that all inputs are consist of lowercase letters `a-z`. 
++ All inputs are guaranteed to be non-empty strings.
 
 ***
