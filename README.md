@@ -4,10 +4,12 @@
 
 I have started from May 8th in this Challenge. And this repository contains my solutions to the challenge. Only the `exact solution`. If you want to improve the solutions, Please make a `Issue first`.
 
-### Questions: 
+### Questions : 
 #### Day-8 : 
 **Check If It Is a Straight Line :** 
 >You are given an array coordinates, coordinates[i] = [x, y], where [x, y] represents the coordinate of a point. Check if these points make a straight line in the XY plane.
+
+**Example :**
 
 `Input: coordinates = [[1,2],[2,3],[3,4],[4,5],[5,6],[6,7]]`
 `Output: true`
@@ -15,7 +17,7 @@ I have started from May 8th in this Challenge. And this repository contains my s
 `Input: coordinates = [[1,1],[2,2],[3,4],[4,5],[5,6],[7,7]]`
 `Output: false`
 
-**Constraints:**
+**Constraints :**
 + `2 <= coordinates.length <= 1000`
 + `coordinates[i].length == 2`
 + `-10^4 <= coordinates[i][0], coordinates[i][1] <= 10^4`
@@ -28,6 +30,8 @@ I have started from May 8th in this Challenge. And this repository contains my s
 >Given a positive integer num, write a function which returns True if num is a perfect square else False.
 
 >Note: Do not use any built-in library function such as `sqrt`.
+
+**Example :**
 
 `Input: 16`
 `Output: true`
@@ -49,6 +53,8 @@ I have started from May 8th in this Challenge. And this repository contains my s
 
 >If the town judge exists and can be identified, return the label of the town judge.  Otherwise, return -1.
 
+**Example :**
+
 `Input: N = 2, trust = [[1,2]]`
 `Output: 2`
 
@@ -64,7 +70,7 @@ I have started from May 8th in this Challenge. And this repository contains my s
 `Input: N = 4, trust = [[1,3],[1,4],[2,3],[2,4],[4,3]]`
 `Output: 3`
 
-**Constraints:**
+**Constraints :**
 + `1 <= N <= 1000`
 + `trust.length <= 10000`
 + `trust[i]` are all different
@@ -83,6 +89,8 @@ I have started from May 8th in this Challenge. And this repository contains my s
 
 >At the end, return the modified image.
 
+**Example :**
+
 `Input: 
 image = [[1,1,1],[1,1,0],[1,0,1]]
 sr = 1, sc = 1, newColor = 2`
@@ -95,7 +103,7 @@ Note the bottom corner is not colored 2, because it is not 4-directionally conne
 to the starting pixel.`
 
 
-**Constraints:**
+**Constraints :**
 + The length of `image` and `image[0]` will be in the range `[1, 50]`.
 + The given starting pixel will satisfy `0 <= sr < image.length and 0 <= sc < image[0].length`.
 + The value of each color in `image[i][j]` and `newColor` will be an integer in `[0, 65535]`.
@@ -105,13 +113,15 @@ to the starting pixel.`
 **Check If It Is a Straight Line :** 
 >You are given a sorted array consisting of only integers where every element appears exactly twice, except for one element which appears exactly once. Find this single element that appears only once.
 
+**Example :**
+
 `Input: [1,1,2,3,3,4,4,8,8]`
 `Output: 2`
 
 `Input: [3,3,7,7,10,11,11]`
 `Output: 10`
 
-**Constraints:**
+**Constraints :**
 +  Your solution should run in `O(log n) time` and `O(1) space`.
 
 ***
@@ -119,6 +129,8 @@ to the starting pixel.`
 #### Day-13 : 
 **Remove K smallest :** 
 >Given a non-negative integer num represented as a string, remove k digits from the number so that the new number is the smallest possible.
+
+**Example :**
 
 `Input: num = "1432219", k = 3`
 `Output: "1219"`
@@ -132,7 +144,7 @@ to the starting pixel.`
 `Output: "0"`
 `Explanation: Remove all the digits from the number and it is left with nothing which is 0.`
 
-**Constraints:**
+**Constraints :**
 + The length of `num is less than 10002` and will be `≥ k`.
 + The given num does not contain any leading zero.
 
@@ -142,7 +154,7 @@ to the starting pixel.`
 **Implement Trie (Prefix Tree) :** 
 >Implement a trie with `insert`, `search`, and `startsWith` methods.
 
-**Example**
+**Example :**
 
 `Trie trie = new Trie();`
 
@@ -158,10 +170,47 @@ to the starting pixel.`
 
 `trie.search("app");     // returns true`
 
-**Constraints:**
+**Constraints :**
 + You may assume that all inputs are consist of lowercase letters `a-z`. 
 + All inputs are guaranteed to be non-empty strings.
 
 Help : https://medium.com/@saurav.agg19/implement-trie-prefix-tree-692560ea448a
+
+***
+
+#### Day-15 : 
+**Maximum Sum Circular Subarray :** 
+>Given a circular array C of integers represented by `A`, find the maximum possible sum of a non-empty subarray of C.
+
+>Here, a circular array means the end of the array connects to the beginning of the array.  (Formally, `C[i] = A[i]` when `0 <= i < A.length`, and `C[i+A.length] = C[i]` when `i >= 0`.)
+
+>Also, a subarray may only include each element of the fixed buffer A at most once.  (Formally, for a subarray `C[i], C[i+1], ..., C[j],` there does not exist `i <= k1, k2 <= j` with `k1 % A.length = k2 % A.length`.)
+
+**Examples :**
+
+`Input: [1,-2,3,-2]`
+`Output: 3`
+`Explanation: Subarray [3] has maximum sum 3`
+
+`Input: [5,-3,5]`
+`Output: 10`
+`Explanation: Subarray [5,5] has maximum sum 5 + 5 = 10`
+
+`Input: [-2,-3,-1]`
+`Output: -1`
+`Explanation: Subarray [-1] has maximum sum -1`
+
+`Input: [3,-2,2,-3]`
+`Output: 3`
+`Explanation: Subarray [3] and [3,-2,2] both have maximum sum 3`
+
+`Input: [3,-1,2,-1]`
+`Output: 4`
+`Explanation: Subarray [2,-1,3] has maximum sum 2 + (-1) + 3 = 4`
+
+
+**Constraints :**
++ `-30000 <= A[i] <= 30000`
++ `1 <= A.length <= 30000`
 
 ***
