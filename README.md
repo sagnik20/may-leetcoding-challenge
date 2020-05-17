@@ -4,6 +4,8 @@
 
 I have started from May 8th in this Challenge. And this repository contains my solutions to the challenge. Only the `exact solution`. If you want to improve the solutions, Please make a `Issue first`.
 
+## :rocket: Get Started
+
 ### Questions : 
 #### Day-8 : 
 **Check If It Is a Straight Line :** 
@@ -212,5 +214,25 @@ Help : https://medium.com/@saurav.agg19/implement-trie-prefix-tree-692560ea448a
 **Constraints :**
 + `-30000 <= A[i] <= 30000`
 + `1 <= A.length <= 30000`
+
+***
+
+#### Day-16 : 
+**Odd Even Linked List :** 
+>Given a singly linked list, group all odd nodes together followed by the even nodes. Please note here we are talking about the node number and not the value in the nodes.
+
+>You should try to do it in place. The program should run in `O(1)` space complexity and `O(nodes)` time complexity.
+
+**Example :**
+
+`Input: 1->2->3->4->5->NULL`
+`Output: 1->3->5->2->4->NULL`
+
+`Input: 2->1->3->5->6->4->7->NULL`
+`Output: 2->3->6->7->1->5->4->NULL`
+
+**Constraints :**
++ The relative order inside both the even and odd groups should remain as it was in the input.
++ The first node is considered odd, the second node even and so on.
 
 ***
