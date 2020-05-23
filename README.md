@@ -363,6 +363,7 @@ You may assume `k` is always valid, `1 ≤ k ≤ BST's total elements`.
 **Example :**
 
 ```
+
 Input: matrix =
 [
   [0,1,1,1],
@@ -375,9 +376,11 @@ There are 10 squares of side 1.
 There are 4 squares of side 2.
 There is  1 square of side 3.
 Total number of squares = 10 + 4 + 1 = 15.
+
 ```
 
 ```
+
 Input: matrix =
 [
   [1,0,1],
@@ -389,11 +392,62 @@ Explanation:
 There are 6 squares of side 1.
 There is 1 square of side 2.
 Total number of squares = 6 + 1 = 7.
+
 ```
 
 **Constraints :**
 + `1 <= arr.length <= 300`
 + `1 <= arr[0].length <= 300`
 + `0 <= arr[i][j] <= 1`
+
+***
+
+#### Day-22 : 
+**Sort Characters By Frequency :** 
+>Given a string, sort it in decreasing order based on the frequency of characters.
+
+**Example :**
+
+```
+
+Input:
+"tree"
+
+Output:
+"eert"
+
+Explanation:
+'e' appears twice while 'r' and 't' both appear once.
+So 'e' must appear before both 'r' and 't'. Therefore "eetr" is also a valid answer.
+
+```
+
+```
+
+Input:
+"cccaaa"
+
+Output:
+"cccaaa"
+
+Explanation:
+Both 'c' and 'a' appear three times, so "aaaccc" is also a valid answer.
+Note that "cacaca" is incorrect, as the same characters must be together.
+
+```
+
+```
+
+Input:
+"Aabb"
+
+Output:
+"bbAa"
+
+Explanation:
+"bbaA" is also a valid answer, but "Aabb" is incorrect.
+Note that 'A' and 'a' are treated as two different characters.
+
+```
 
 ***
