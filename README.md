@@ -490,13 +490,13 @@ Reminder: The inputs and the desired output are lists of Interval objects, and n
 
 Input: [8,5,1,7,10,12]
 Output: [8,5,10,1,7,null,12]
-![Tree](https://assets.leetcode.com/uploads/2019/03/06/1266.png)
 
 ```
+![Tree](https://assets.leetcode.com/uploads/2019/03/06/1266.png)
 
 **Constraints :**
 + `1 <= preorder.length <= 100`
 + `1 <= preorder[i] <= 10^8`
-The values of `preorder` are distinct.
++ The values of `preorder` are distinct.
 
 ***
